@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C5D5C211CB4A1CE00AEAAB1 /* HcdLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */; };
 		0CC259C31CA664A10004E750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC259C21CA664A10004E750 /* main.m */; };
 		0CC259C61CA664A10004E750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC259C51CA664A10004E750 /* AppDelegate.m */; };
 		0CC259C91CA664A10004E750 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC259C81CA664A10004E750 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C5D5C1F1CB4A1CE00AEAAB1 /* HcdLotteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdLotteryView.h; sourceTree = "<group>"; };
+		0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdLotteryView.m; sourceTree = "<group>"; };
 		0CC259BE1CA664A10004E750 /* hcdLotteryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hcdLotteryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC259C21CA664A10004E750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CC259C41CA664A10004E750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 			children = (
 				0CC259D81CA666220004E750 /* HcdLotteryButton.h */,
 				0CC259D91CA666220004E750 /* HcdLotteryButton.m */,
+				0C5D5C1F1CB4A1CE00AEAAB1 /* HcdLotteryView.h */,
+				0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */,
 				0CC259C41CA664A10004E750 /* AppDelegate.h */,
 				0CC259C51CA664A10004E750 /* AppDelegate.m */,
 				0CC259C71CA664A10004E750 /* ViewController.h */,
@@ -158,6 +163,7 @@
 				0CC259C61CA664A10004E750 /* AppDelegate.m in Sources */,
 				0CC259C31CA664A10004E750 /* main.m in Sources */,
 				0CC259DA1CA666220004E750 /* HcdLotteryButton.m in Sources */,
+				0C5D5C211CB4A1CE00AEAAB1 /* HcdLotteryView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				0CC259D71CA664A10004E750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
