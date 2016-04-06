@@ -10,4 +10,5 @@
 
 @interface HcdLotteryView : UIView
 
+
 @end
