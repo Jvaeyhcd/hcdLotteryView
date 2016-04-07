@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C32867B1CB628EE009324DA /* HcdLotteryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C32867A1CB628EE009324DA /* HcdLotteryCell.m */; };
+		0C3286821CB62C87009324DA /* l1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C32867D1CB62C87009324DA /* l1.png */; };
+		0C3286831CB62C87009324DA /* l2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C32867E1CB62C87009324DA /* l2.png */; };
+		0C3286841CB62C87009324DA /* l3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C32867F1CB62C87009324DA /* l3.png */; };
+		0C3286851CB62C87009324DA /* l4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3286801CB62C87009324DA /* l4.png */; };
+		0C3286861CB62C87009324DA /* l5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C3286811CB62C87009324DA /* l5.png */; };
 		0C5D5C211CB4A1CE00AEAAB1 /* HcdLotteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */; };
 		0CC259C31CA664A10004E750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC259C21CA664A10004E750 /* main.m */; };
 		0CC259C61CA664A10004E750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC259C51CA664A10004E750 /* AppDelegate.m */; };
@@ -18,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C3286791CB628EE009324DA /* HcdLotteryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdLotteryCell.h; sourceTree = "<group>"; };
+		0C32867A1CB628EE009324DA /* HcdLotteryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdLotteryCell.m; sourceTree = "<group>"; };
+		0C32867D1CB62C87009324DA /* l1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l1.png; sourceTree = "<group>"; };
+		0C32867E1CB62C87009324DA /* l2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l2.png; sourceTree = "<group>"; };
+		0C32867F1CB62C87009324DA /* l3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l3.png; sourceTree = "<group>"; };
+		0C3286801CB62C87009324DA /* l4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l4.png; sourceTree = "<group>"; };
+		0C3286811CB62C87009324DA /* l5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l5.png; sourceTree = "<group>"; };
 		0C5D5C1F1CB4A1CE00AEAAB1 /* HcdLotteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HcdLotteryView.h; sourceTree = "<group>"; };
 		0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HcdLotteryView.m; sourceTree = "<group>"; };
 		0CC259BE1CA664A10004E750 /* hcdLotteryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hcdLotteryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +58,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C32867C1CB62C87009324DA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0C32867D1CB62C87009324DA /* l1.png */,
+				0C32867E1CB62C87009324DA /* l2.png */,
+				0C32867F1CB62C87009324DA /* l3.png */,
+				0C3286801CB62C87009324DA /* l4.png */,
+				0C3286811CB62C87009324DA /* l5.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		0CC259B51CA664A10004E750 = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +89,11 @@
 		0CC259C01CA664A10004E750 /* hcdLotteryView */ = {
 			isa = PBXGroup;
 			children = (
+				0C32867C1CB62C87009324DA /* image */,
 				0CC259D81CA666220004E750 /* HcdLotteryButton.h */,
 				0CC259D91CA666220004E750 /* HcdLotteryButton.m */,
+				0C3286791CB628EE009324DA /* HcdLotteryCell.h */,
+				0C32867A1CB628EE009324DA /* HcdLotteryCell.m */,
 				0C5D5C1F1CB4A1CE00AEAAB1 /* HcdLotteryView.h */,
 				0C5D5C201CB4A1CE00AEAAB1 /* HcdLotteryView.m */,
 				0CC259C41CA664A10004E750 /* AppDelegate.h */,
@@ -146,8 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3286851CB62C87009324DA /* l4.png in Resources */,
+				0C3286831CB62C87009324DA /* l2.png in Resources */,
+				0C3286861CB62C87009324DA /* l5.png in Resources */,
 				0CC259D11CA664A10004E750 /* LaunchScreen.storyboard in Resources */,
 				0CC259CE1CA664A10004E750 /* Assets.xcassets in Resources */,
+				0C3286821CB62C87009324DA /* l1.png in Resources */,
+				0C3286841CB62C87009324DA /* l3.png in Resources */,
 				0CC259CC1CA664A10004E750 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CC259C91CA664A10004E750 /* ViewController.m in Sources */,
+				0C32867B1CB628EE009324DA /* HcdLotteryCell.m in Sources */,
 				0CC259C61CA664A10004E750 /* AppDelegate.m in Sources */,
 				0CC259C31CA664A10004E750 /* main.m in Sources */,
 				0CC259DA1CA666220004E750 /* HcdLotteryButton.m in Sources */,
